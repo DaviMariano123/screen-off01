@@ -6,7 +6,7 @@
     <title>Questionário</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/comum.css">
-    <link rel="stylesheet" href="css/questionario/questionario.css">
+    <link rel="stylesheet" href="css/questionario.css">
 </head>
 
 <body>
@@ -25,278 +25,280 @@
             </nav>
         </div>
     </header>
-   
-    <div class="caixa">
-    <h1>Questionário</h1>
-    <form id="questionario">
-        <!-- PERGUNTA 1 -->
-        <div class="pergunta" id="p1">
-            <label>1. Em qual atividade você passa mais tempo no celular?</label><br>
-            <input type="radio" name="atividade" value="A"> Redes sociais<br>
-            <input type="radio" name="atividade" value="B"> Jogos<br>
-            <input type="radio" name="atividade" value="C"> WhatsApp / conversas<br>
-            <input type="radio" name="atividade" value="D"> Vídeos (YouTube / streaming)<br>
-        </div>
+    <main>
 
-        <!-- PERGUNTAS A -->
-        <div class="pergunta" id="p2A">
-            <label>2A. Qual rede social você usa com mais frequência?</label><br>
-            <input type="radio" name="rede" value="Instagram"> Instagram<br>
-            <input type="radio" name="rede" value="TikTok"> TikTok<br>
-            <input type="radio" name="rede" value="Facebook"> Facebook<br>
-            <input type="radio" name="rede" value="X"> X / Twitter<br>
-            <input type="radio" name="rede" value="Outra"> Outra<br>
-        </div>
-        <div class="pergunta" id="p3A">
-            <label>3A. Quanto tempo você passa rolando o feed sem perceber?</label><br>
-            <input type="radio" name="feed" value="Menos de 1h"> Menos de 1h<br>
-            <input type="radio" name="feed" value="1–2h"> 1–2h<br>
-            <input type="radio" name="feed" value="2–4h"> 2–4h<br>
-            <input type="radio" name="feed" value="Mais de 4h"> Mais de 4h<br>
-        </div>
-        <div class="pergunta" id="p4A">
-            <label>4A. O que mais te prende nas redes sociais?</label><br>
-            <input type="radio" name="prende" value="Vídeos curtos"> Vídeos curtos<br>
-            <input type="radio" name="prende" value="Stories"> Stories<br>
-            <input type="radio" name="prende" value="Notícias"> Notícias<br>
-            <input type="radio" name="prende" value="Interações sociais"> Interações sociais<br>
-        </div>
-        <div class="pergunta" id="p5A">
-            <label>5A. Você já tentou reduzir o uso das redes sociais?</label><br>
-            <input type="radio" name="reduzir" value="Sim, mas não consegui"> Sim, mas não consegui<br>
-            <input type="radio" name="reduzir" value="Sim, e consegui um pouco"> Sim, e consegui um pouco<br>
-            <input type="radio" name="reduzir" value="Não tentei"> Não tentei<br>
-            <input type="radio" name="reduzir" value="Não quero tentar"> Não quero tentar<br>
-        </div>
-
-        <!-- PERGUNTAS B -->
-        <div class="pergunta" id="p2B">
-            <label>2B. Que tipo de jogo você mais joga?</label><br>
-            <input type="radio" name="jogo" value="Mobile"> Mobile<br>
-            <input type="radio" name="jogo" value="Consoles"> Consoles<br>
-            <input type="radio" name="jogo" value="PC"> PC<br>
-            <input type="radio" name="jogo" value="Todos"> Todos<br>
-        </div>
-        <div class="pergunta" id="p3B">
-            <label>3B. Você costuma perder a noção do tempo jogando?</label><br>
-            <input type="radio" name="nocao" value="Sim"> Sim<br>
-            <input type="radio" name="nocao" value="Às vezes"> Às vezes<br>
-            <input type="radio" name="nocao" value="Não"> Não<br>
-        </div>
-        <div class="pergunta" id="p4B">
-            <label>4B. O que te faz querer continuar jogando?</label><br>
-            <input type="radio" name="motivo" value="Competição"> Competição<br>
-            <input type="radio" name="motivo" value="Diversão"> Diversão<br>
-            <input type="radio" name="motivo" value="Recompensas"> Recompensas do jogo<br>
-            <input type="radio" name="motivo" value="Hábito"> Por hábito<br>
-        </div>
-        <div class="pergunta" id="p5B">
-            <label>5B. Você sente que os jogos atrapalham algo no seu dia a dia?</label><br>
-            <input type="radio" name="atrapalha" value="Estudos"> Estudos<br>
-            <input type="radio" name="atrapalha" value="Sono"> Sono<br>
-            <input type="radio" name="atrapalha" value="Rotina"> Rotina<br>
-            <input type="radio" name="atrapalha" value="Não me atrapalham"> Não me atrapalham<br>
-        </div>
-
-        <!-- PERGUNTAS C -->
-        <div class="pergunta" id="p2C">
-            <label>2C. Quantos grupos ativos você participa?</label><br>
-            <input type="radio" name="grupos" value="1-5"> 1–5<br>
-            <input type="radio" name="grupos" value="6-10"> 6–10<br>
-            <input type="radio" name="grupos" value="11-20"> 11–20<br>
-            <input type="radio" name="grupos" value="Mais de 20"> Mais de 20<br>
-        </div>
-        <div class="pergunta" id="p3C">
-            <label>3C. Você sente obrigação de responder rápido?</label><br>
-            <input type="radio" name="resposta" value="Sim, sempre"> Sim, sempre<br>
-            <input type="radio" name="resposta" value="Às vezes"> Às vezes<br>
-            <input type="radio" name="resposta" value="Não"> Não<br>
-        </div>
-        <div class="pergunta" id="p4C">
-            <label>4C. O que mais ocupa seu tempo no WhatsApp?</label><br>
-            <input type="radio" name="ocupa" value="Grupos"> Grupos<br>
-            <input type="radio" name="ocupa" value="Conversas privadas"> Conversas privadas<br>
-            <input type="radio" name="ocupa" value="Trabalho/escola"> Trabalho/escola<br>
-            <input type="radio" name="ocupa" value="Mídias"> Mídias (vídeos, áudios, memes)<br>
-        </div>
-        <div class="pergunta" id="p5C">
-            <label>5C. Quando você tenta ficar longe do celular, o WhatsApp te atrapalha?</label><br>
-            <input type="radio" name="atrapalha_wpp" value="Sim"> Sim<br>
-            <input type="radio" name="atrapalha_wpp" value="Um pouco"> Um pouco<br>
-            <input type="radio" name="atrapalha_wpp" value="Não"> Não<br>
-        </div>
-
-        <!-- PERGUNTAS D -->
-        <div class="pergunta" id="p2D">
-            <label>2D. Qual plataforma você usa mais?</label><br>
-            <input type="radio" name="plataforma" value="YouTube"> YouTube<br>
-            <input type="radio" name="plataforma" value="Netflix"> Netflix<br>
-            <input type="radio" name="plataforma" value="TikTok vídeos longos"> TikTok vídeos longos<br>
-            <input type="radio" name="plataforma" value="Outras"> Outras<br>
-        </div>
-        <div class="pergunta" id="p3D">
-            <label>3D. Quanto tempo você passa assistindo vídeos por dia?</label><br>
-            <input type="radio" name="tempo_video" value="Menos de 1h"> Menos de 1h<br>
-            <input type="radio" name="tempo_video" value="1–2h"> 1–2h<br>
-            <input type="radio" name="tempo_video" value="2–4h"> 2–4h<br>
-            <input type="radio" name="tempo_video" value="Mais de 4h"> Mais de 4h<br>
-        </div>
-        <div class="pergunta" id="p4D">
-            <label>4D. Você costuma assistir enquanto faz outras tarefas?</label><br>
-            <input type="radio" name="multitarefa" value="Sim"> Sim<br>
-            <input type="radio" name="multitarefa" value="Às vezes"> Às vezes<br>
-            <input type="radio" name="multitarefa" value="Não"> Não<br>
-        </div>
-        <div class="pergunta" id="p5D">
-            <label>5D. O que normalmente te faz continuar assistindo?</label><br>
-            <input type="radio" name="motivo_assistir" value="Recomendação automática"> Recomendação automática<br>
-            <input type="radio" name="motivo_assistir" value="Episódios em sequência"> Episódios em sequência<br>
-            <input type="radio" name="motivo_assistir" value="Conteúdo educativo"> Conteúdo educativo<br>
-            <input type="radio" name="motivo_assistir" value="Não sei, só continuo"> Não sei, só continuo<br>
-        </div>
-
-        <!-- BOTÃO FINAL -->
-        <div id="ver-diagnostico">
-            <button type="button" onclick="window.location.href='sua_pagina_diagnostico.html'">VER DIAGNÓSTICO</button>
-        </div>
-    </form>
-    <div id="resultado" class="result"></div>
-
-    <script>
-        // PERGUNTAS POR GRUPO
-        const perguntasA = ["p2A", "p3A", "p4A", "p5A"];
-        const perguntasB = ["p2B", "p3B", "p4B", "p5B"];
-        const perguntasC = ["p2C", "p3C", "p4C", "p5C"];
-        const perguntasD = ["p2D", "p3D", "p4D", "p5D"];
-
-        let blocoPerguntas = [];
-        let passo = 0;
-
-        // Aqui guardamos todas as respostas de forma bem simples
-        let respostas = [];
-
-        // Mostra só a primeira pergunta
-        document.getElementById("p1").style.display = "block";
-
-        const atividade = document.getElementsByName("atividade");
-        for (let i = 0; i < atividade.length; i++) {
-            atividade[i].onclick = function () {
-
-                respostas.push(this.value); // salva a resposta da pergunta 1
-
-                if (this.value === "A") blocoPerguntas = perguntasA;
-                if (this.value === "B") blocoPerguntas = perguntasB;
-                if (this.value === "C") blocoPerguntas = perguntasC;
-                if (this.value === "D") blocoPerguntas = perguntasD;
-
-                document.getElementById("p1").style.display = "none";
-                mostrarProxima();
-            }
-        }
-
-        function mostrarProxima() {
-            const todas = document.getElementsByClassName("pergunta");
-            for (let i = 0; i < todas.length; i++) {
-                todas[i].style.display = "none";
-            }
-
-            if (passo < blocoPerguntas.length) {
-
-                const id = blocoPerguntas[passo];
-                let pergunta = document.getElementById(id);
-                pergunta.style.display = "block";
-
-                let opcoes = pergunta.getElementsByTagName("input");
-                for (let k = 0; k < opcoes.length; k++) {
-                    opcoes[k].onclick = function () {
-                        respostas.push(this.value); // salva a resposta simples
-                        passo++;
-                        mostrarProxima();
-                    };
+        <div class="caixa">
+        <h1>Questionário</h1>
+        <form id="questionario">
+            <!-- PERGUNTA 1 -->
+            <div class="pergunta" id="p1">
+                <label>1. Em qual atividade você passa mais tempo no celular?</label><br>
+                <input type="radio" name="atividade" value="A"> Redes sociais<br>
+                <input type="radio" name="atividade" value="B"> Jogos<br>
+                <input type="radio" name="atividade" value="C"> WhatsApp / conversas<br>
+                <input type="radio" name="atividade" value="D"> Vídeos (YouTube / streaming)<br>
+            </div>
+    
+            <!-- PERGUNTAS A -->
+            <div class="pergunta" id="p2A">
+                <label>2A. Qual rede social você usa com mais frequência?</label><br>
+                <input type="radio" name="rede" value="Instagram"> Instagram<br>
+                <input type="radio" name="rede" value="TikTok"> TikTok<br>
+                <input type="radio" name="rede" value="Facebook"> Facebook<br>
+                <input type="radio" name="rede" value="X"> X / Twitter<br>
+                <input type="radio" name="rede" value="Outra"> Outra<br>
+            </div>
+            <div class="pergunta" id="p3A">
+                <label>3A. Quanto tempo você passa rolando o feed sem perceber?</label><br>
+                <input type="radio" name="feed" value="Menos de 1h"> Menos de 1h<br>
+                <input type="radio" name="feed" value="1–2h"> 1–2h<br>
+                <input type="radio" name="feed" value="2–4h"> 2–4h<br>
+                <input type="radio" name="feed" value="Mais de 4h"> Mais de 4h<br>
+            </div>
+            <div class="pergunta" id="p4A">
+                <label>4A. O que mais te prende nas redes sociais?</label><br>
+                <input type="radio" name="prende" value="Vídeos curtos"> Vídeos curtos<br>
+                <input type="radio" name="prende" value="Stories"> Stories<br>
+                <input type="radio" name="prende" value="Notícias"> Notícias<br>
+                <input type="radio" name="prende" value="Interações sociais"> Interações sociais<br>
+            </div>
+            <div class="pergunta" id="p5A">
+                <label>5A. Você já tentou reduzir o uso das redes sociais?</label><br>
+                <input type="radio" name="reduzir" value="Sim, mas não consegui"> Sim, mas não consegui<br>
+                <input type="radio" name="reduzir" value="Sim, e consegui um pouco"> Sim, e consegui um pouco<br>
+                <input type="radio" name="reduzir" value="Não tentei"> Não tentei<br>
+                <input type="radio" name="reduzir" value="Não quero tentar"> Não quero tentar<br>
+            </div>
+    
+            <!-- PERGUNTAS B -->
+            <div class="pergunta" id="p2B">
+                <label>2B. Que tipo de jogo você mais joga?</label><br>
+                <input type="radio" name="jogo" value="Mobile"> Mobile<br>
+                <input type="radio" name="jogo" value="Consoles"> Consoles<br>
+                <input type="radio" name="jogo" value="PC"> PC<br>
+                <input type="radio" name="jogo" value="Todos"> Todos<br>
+            </div>
+            <div class="pergunta" id="p3B">
+                <label>3B. Você costuma perder a noção do tempo jogando?</label><br>
+                <input type="radio" name="nocao" value="Sim"> Sim<br>
+                <input type="radio" name="nocao" value="Às vezes"> Às vezes<br>
+                <input type="radio" name="nocao" value="Não"> Não<br>
+            </div>
+            <div class="pergunta" id="p4B">
+                <label>4B. O que te faz querer continuar jogando?</label><br>
+                <input type="radio" name="motivo" value="Competição"> Competição<br>
+                <input type="radio" name="motivo" value="Diversão"> Diversão<br>
+                <input type="radio" name="motivo" value="Recompensas"> Recompensas do jogo<br>
+                <input type="radio" name="motivo" value="Hábito"> Por hábito<br>
+            </div>
+            <div class="pergunta" id="p5B">
+                <label>5B. Você sente que os jogos atrapalham algo no seu dia a dia?</label><br>
+                <input type="radio" name="atrapalha" value="Estudos"> Estudos<br>
+                <input type="radio" name="atrapalha" value="Sono"> Sono<br>
+                <input type="radio" name="atrapalha" value="Rotina"> Rotina<br>
+                <input type="radio" name="atrapalha" value="Não me atrapalham"> Não me atrapalham<br>
+            </div>
+    
+            <!-- PERGUNTAS C -->
+            <div class="pergunta" id="p2C">
+                <label>2C. Quantos grupos ativos você participa?</label><br>
+                <input type="radio" name="grupos" value="1-5"> 1–5<br>
+                <input type="radio" name="grupos" value="6-10"> 6–10<br>
+                <input type="radio" name="grupos" value="11-20"> 11–20<br>
+                <input type="radio" name="grupos" value="Mais de 20"> Mais de 20<br>
+            </div>
+            <div class="pergunta" id="p3C">
+                <label>3C. Você sente obrigação de responder rápido?</label><br>
+                <input type="radio" name="resposta" value="Sim, sempre"> Sim, sempre<br>
+                <input type="radio" name="resposta" value="Às vezes"> Às vezes<br>
+                <input type="radio" name="resposta" value="Não"> Não<br>
+            </div>
+            <div class="pergunta" id="p4C">
+                <label>4C. O que mais ocupa seu tempo no WhatsApp?</label><br>
+                <input type="radio" name="ocupa" value="Grupos"> Grupos<br>
+                <input type="radio" name="ocupa" value="Conversas privadas"> Conversas privadas<br>
+                <input type="radio" name="ocupa" value="Trabalho/escola"> Trabalho/escola<br>
+                <input type="radio" name="ocupa" value="Mídias"> Mídias (vídeos, áudios, memes)<br>
+            </div>
+            <div class="pergunta" id="p5C">
+                <label>5C. Quando você tenta ficar longe do celular, o WhatsApp te atrapalha?</label><br>
+                <input type="radio" name="atrapalha_wpp" value="Sim"> Sim<br>
+                <input type="radio" name="atrapalha_wpp" value="Um pouco"> Um pouco<br>
+                <input type="radio" name="atrapalha_wpp" value="Não"> Não<br>
+            </div>
+    
+            <!-- PERGUNTAS D -->
+            <div class="pergunta" id="p2D">
+                <label>2D. Qual plataforma você usa mais?</label><br>
+                <input type="radio" name="plataforma" value="YouTube"> YouTube<br>
+                <input type="radio" name="plataforma" value="Netflix"> Netflix<br>
+                <input type="radio" name="plataforma" value="TikTok vídeos longos"> TikTok vídeos longos<br>
+                <input type="radio" name="plataforma" value="Outras"> Outras<br>
+            </div>
+            <div class="pergunta" id="p3D">
+                <label>3D. Quanto tempo você passa assistindo vídeos por dia?</label><br>
+                <input type="radio" name="tempo_video" value="Menos de 1h"> Menos de 1h<br>
+                <input type="radio" name="tempo_video" value="1–2h"> 1–2h<br>
+                <input type="radio" name="tempo_video" value="2–4h"> 2–4h<br>
+                <input type="radio" name="tempo_video" value="Mais de 4h"> Mais de 4h<br>
+            </div>
+            <div class="pergunta" id="p4D">
+                <label>4D. Você costuma assistir enquanto faz outras tarefas?</label><br>
+                <input type="radio" name="multitarefa" value="Sim"> Sim<br>
+                <input type="radio" name="multitarefa" value="Às vezes"> Às vezes<br>
+                <input type="radio" name="multitarefa" value="Não"> Não<br>
+            </div>
+            <div class="pergunta" id="p5D">
+                <label>5D. O que normalmente te faz continuar assistindo?</label><br>
+                <input type="radio" name="motivo_assistir" value="Recomendação automática"> Recomendação automática<br>
+                <input type="radio" name="motivo_assistir" value="Episódios em sequência"> Episódios em sequência<br>
+                <input type="radio" name="motivo_assistir" value="Conteúdo educativo"> Conteúdo educativo<br>
+                <input type="radio" name="motivo_assistir" value="Não sei, só continuo"> Não sei, só continuo<br>
+            </div>
+    
+            <!-- BOTÃO FINAL -->
+            <div id="ver-diagnostico">
+                <button type="button" onclick="window.location.href='sua_pagina_diagnostico.html'">VER DIAGNÓSTICO</button>
+            </div>
+        </form>
+        <div id="resultado" class="result"></div>
+    
+        <script>
+            // PERGUNTAS POR GRUPO
+            const perguntasA = ["p2A", "p3A", "p4A", "p5A"];
+            const perguntasB = ["p2B", "p3B", "p4B", "p5B"];
+            const perguntasC = ["p2C", "p3C", "p4C", "p5C"];
+            const perguntasD = ["p2D", "p3D", "p4D", "p5D"];
+    
+            let blocoPerguntas = [];
+            let passo = 0;
+    
+            // Aqui guardamos todas as respostas de forma bem simples
+            let respostas = [];
+    
+            // Mostra só a primeira pergunta
+            document.getElementById("p1").style.display = "block";
+    
+            const atividade = document.getElementsByName("atividade");
+            for (let i = 0; i < atividade.length; i++) {
+                atividade[i].onclick = function () {
+    
+                    respostas.push(this.value); // salva a resposta da pergunta 1
+    
+                    if (this.value === "A") blocoPerguntas = perguntasA;
+                    if (this.value === "B") blocoPerguntas = perguntasB;
+                    if (this.value === "C") blocoPerguntas = perguntasC;
+                    if (this.value === "D") blocoPerguntas = perguntasD;
+    
+                    document.getElementById("p1").style.display = "none";
+                    mostrarProxima();
                 }
-
-                // termina e mostra texto
-            } else {
-                mostrarResultado();
             }
-        }
-
-        function mostrarResultado() {
-            let result = document.getElementById("resultado");
-            let texto = "";
-
-            let atividadePrincipal = respostas[0];
-
-
-            // DIAGNÓSTICOS COMPLETOS
-
-            // A — Redes Sociais
-            if (atividadePrincipal === "A") {
-                texto =
-                    "Seu padrão indica alto uso de redes sociais.\n\n" +
-                    "Isso acontece muito quando o feed infinito e as notificações geram pequenas recompensas no cérebro, fazendo você continuar rolando sem perceber.\n\n" +
-                    "O que você pode fazer:\n" +
-                    "• Desative notificações não essenciais (principalmente Instagram e TikTok).\n" +
-                    "• Defina um limite de tempo diário (ex.: 1h por dia).\n" +
-                    "• Evite usar o celular nos primeiros 30 minutos após acordar.\n" +
-                    "• Use o celular longe da cama à noite.\n" +
-                    "• Deixe o ícone do app menos acessível (tire da tela inicial).\n\n" +
-                    "Essas práticas ajudam a reduzir o condicionamento e dão mais controle sobre o hábito.";
+    
+            function mostrarProxima() {
+                const todas = document.getElementsByClassName("pergunta");
+                for (let i = 0; i < todas.length; i++) {
+                    todas[i].style.display = "none";
+                }
+    
+                if (passo < blocoPerguntas.length) {
+    
+                    const id = blocoPerguntas[passo];
+                    let pergunta = document.getElementById(id);
+                    pergunta.style.display = "block";
+    
+                    let opcoes = pergunta.getElementsByTagName("input");
+                    for (let k = 0; k < opcoes.length; k++) {
+                        opcoes[k].onclick = function () {
+                            respostas.push(this.value); // salva a resposta simples
+                            passo++;
+                            mostrarProxima();
+                        };
+                    }
+    
+                    // termina e mostra texto
+                } else {
+                    mostrarResultado();
+                }
             }
-
-            // B — Jogos
-            else if (atividadePrincipal === "B") {
-                texto =
-                    "Você passa bastante tempo jogando.\n\n" +
-                    "Jogos liberam dopamina rapidamente, especialmente quando há recompensas, vitórias ou progresso constante.\n\n" +
-                    "Dicas para melhorar seu equilíbrio:\n" +
-                    "• Defina horários fixos para jogar (ex.: só à noite ou só nos finais de semana).\n" +
-                    "• Ative alarmes para lembrar de fazer pausas.\n" +
-                    "• Evite jogar antes de dormir para não prejudicar o sono.\n" +
-                    "• Jogue longe da cama e evite fones se isso prolonga sessões.\n" +
-                    "• Diminua jogos muito competitivos se eles te deixam preso por horas.\n\n" +
-                    "O objetivo não é parar de jogar — é ter controle sobre o tempo.";
+    
+            function mostrarResultado() {
+                let result = document.getElementById("resultado");
+                let texto = "";
+    
+                let atividadePrincipal = respostas[0];
+    
+    
+                // DIAGNÓSTICOS COMPLETOS
+    
+                // A — Redes Sociais
+                if (atividadePrincipal === "A") {
+                    texto =
+                        "Seu padrão indica alto uso de redes sociais.\n\n" +
+                        "Isso acontece muito quando o feed infinito e as notificações geram pequenas recompensas no cérebro, fazendo você continuar rolando sem perceber.\n\n" +
+                        "O que você pode fazer:\n" +
+                        "• Desative notificações não essenciais (principalmente Instagram e TikTok).\n" +
+                        "• Defina um limite de tempo diário (ex.: 1h por dia).\n" +
+                        "• Evite usar o celular nos primeiros 30 minutos após acordar.\n" +
+                        "• Use o celular longe da cama à noite.\n" +
+                        "• Deixe o ícone do app menos acessível (tire da tela inicial).\n\n" +
+                        "Essas práticas ajudam a reduzir o condicionamento e dão mais controle sobre o hábito.";
+                }
+    
+                // B — Jogos
+                else if (atividadePrincipal === "B") {
+                    texto =
+                        "Você passa bastante tempo jogando.\n\n" +
+                        "Jogos liberam dopamina rapidamente, especialmente quando há recompensas, vitórias ou progresso constante.\n\n" +
+                        "Dicas para melhorar seu equilíbrio:\n" +
+                        "• Defina horários fixos para jogar (ex.: só à noite ou só nos finais de semana).\n" +
+                        "• Ative alarmes para lembrar de fazer pausas.\n" +
+                        "• Evite jogar antes de dormir para não prejudicar o sono.\n" +
+                        "• Jogue longe da cama e evite fones se isso prolonga sessões.\n" +
+                        "• Diminua jogos muito competitivos se eles te deixam preso por horas.\n\n" +
+                        "O objetivo não é parar de jogar — é ter controle sobre o tempo.";
+                }
+    
+                // C — WhatsApp / conversas
+                else if (atividadePrincipal === "C") {
+                    texto =
+                        "Seu principal uso é WhatsApp e conversas.\n\n" +
+                        "O WhatsApp pode gerar ansiedade de resposta e sensação de obrigação constante.\n\n" +
+                        "Como reduzir esse impacto:\n" +
+                        "• Silencie grupos que não são essenciais.\n" +
+                        "• Desative o aviso de \"mensagem nova\" na barra de notificações.\n" +
+                        "• Escolha horários fixos para responder mensagens.\n" +
+                        "• Ative o modo \"não perturbe\" quando estiver estudando.\n" +
+                        "• Esconda o status \"online\" e o \"visto por último\" para menos pressão.\n\n" +
+                        "Isso diminui a urgência psicológica e te dá mais tranquilidade.";
+                }
+    
+                // D — Vídeos / YouTube / streaming
+                else if (atividadePrincipal === "D") {
+                    texto =
+                        "Você usa muito tempo assistindo vídeos.\n\n" +
+                        "Plataformas como YouTube e TikTok prendem atenção com recomendações automáticas e conteúdo infinito.\n\n" +
+                        "Como recuperar o controle:\n" +
+                        "• Desative o autoplay (reprodução automática).\n" +
+                        "• Evite assistir enquanto faz outras tarefas — isso aumenta o tempo total.\n" +
+                        "• Assista vídeos em velocidade normal (evita consumo excessivo).\n" +
+                        "• Programe um horário para ver vídeos.\n" +
+                        "• Pare um pouco antes de começar um novo episódio.\n\n" +
+                        "Pequenas mudanças reduzem o vício e te ajudam a aproveitar melhor o tempo.";
+                }
+    
+                else {
+                    texto = "Não foi possível gerar um diagnóstico.";
+                }
+    
+                // Mostrar no HTML
+                result.innerText = texto;
+                result.style.display = "block";
             }
-
-            // C — WhatsApp / conversas
-            else if (atividadePrincipal === "C") {
-                texto =
-                    "Seu principal uso é WhatsApp e conversas.\n\n" +
-                    "O WhatsApp pode gerar ansiedade de resposta e sensação de obrigação constante.\n\n" +
-                    "Como reduzir esse impacto:\n" +
-                    "• Silencie grupos que não são essenciais.\n" +
-                    "• Desative o aviso de \"mensagem nova\" na barra de notificações.\n" +
-                    "• Escolha horários fixos para responder mensagens.\n" +
-                    "• Ative o modo \"não perturbe\" quando estiver estudando.\n" +
-                    "• Esconda o status \"online\" e o \"visto por último\" para menos pressão.\n\n" +
-                    "Isso diminui a urgência psicológica e te dá mais tranquilidade.";
-            }
-
-            // D — Vídeos / YouTube / streaming
-            else if (atividadePrincipal === "D") {
-                texto =
-                    "Você usa muito tempo assistindo vídeos.\n\n" +
-                    "Plataformas como YouTube e TikTok prendem atenção com recomendações automáticas e conteúdo infinito.\n\n" +
-                    "Como recuperar o controle:\n" +
-                    "• Desative o autoplay (reprodução automática).\n" +
-                    "• Evite assistir enquanto faz outras tarefas — isso aumenta o tempo total.\n" +
-                    "• Assista vídeos em velocidade normal (evita consumo excessivo).\n" +
-                    "• Programe um horário para ver vídeos.\n" +
-                    "• Pare um pouco antes de começar um novo episódio.\n\n" +
-                    "Pequenas mudanças reduzem o vício e te ajudam a aproveitar melhor o tempo.";
-            }
-
-            else {
-                texto = "Não foi possível gerar um diagnóstico.";
-            }
-
-            // Mostrar no HTML
-            result.innerText = texto;
-            result.style.display = "block";
-        }
-
-    </script>
-    </div>
+    
+        </script>
+        </div>
+    </main>
     <footer class="rodape">
         <div class="logotipo-rodape">
             SCREEN <span class="desligado">OFF</span>
