@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4fbcdd;
+}
+
+.caixa {
+    width: 120%;
+    max-width: 1000px;
+    background-color: #ffff;
+    padding: 90px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+    position: relative;
+}
+
+.titulo::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 5px;
+    background-color: #b83d3b;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+    color: #000000;
+
+}
+
+.instrucao {
+    font-size: 1.3rem;
+    color: #2a2a2a;
+    padding: 10px 0 26px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.botao {
+    font-size: 1.1rem;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #E2E2E2;
+    border: 1.5px solid #6C7377;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.8s, border-color 0.8s;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+}
+
+.botao:hover {
+    background-color: rgb(160, 160, 160);
+    border-color: #b83d3b;
+    transition: 1.3s;
+    width: 230px;
+    height: 180px;
+}
+
+.botao:not(:hover) {
+    background-color: #c9c9c9;
+    border-color: #0e0e0e;
+    transition: 1.5s;
+    width: 200px;
+    height: 150px;
+}
+
+.icones-sociais {
+    display: flex;
+    gap: 10px;
+}
+
+.icones-sociais {
+    font-size: 1.5em;
+    color: #474646;
+    text-decoration: none;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #777;
+}
+
+.botaoSobreNos p,
+.botaoQuiz p {
+    margin: 1.4vw 0 0 0;
+    color: black;
+    font-size: 1.4rem;
+    line-height: 3vw;
+}
+
+.botaoSobreNos a,
+.botaoQuiz a {
+    background-color: rgb(204, 204, 204);
+    padding: 15px 4.2vw;
+    border-radius: 10px;
+    margin: 10vw 0 10vw 0;
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid #0a0a0a;
+    line-height: 3vw;
+    font-size: 1.1rem;
+    transition: 2s;
+    transform: translateY(66660px);
+}
+
+footer div a {
+    font-size: 1.7rem;
+}
+
+footer div p {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+footer p {
+    padding: 10px 0 0 0;
+    font-size: 1.2rem;
+}
+@media (max-width: 800px) {
+    
+}

@@ -1,0 +1,193 @@
+nav {
+  font-size: 1.1rem;
+}
+.titulo-pagina {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.secao-redes-sociais {
+  background: #e8f4fd;
+  border: 3px solid #74b9ff;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+.titulo-redes-sociais {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.secao-videos {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.item-video {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.placeholder-video {
+  width: 200px;
+  height: 120px;
+  background: #2d3436;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.miniatura-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.conteudo-video h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.conteudo-video p {
+  color: #636e72;
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+.secao-videos a {
+  background-color: #dfdfdf;
+  color: #686868;
+  border-radius: 30px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: bold;
+ 
+}
+.secao-principal-maleficios {
+  background: #f1f2f6;
+  border: 3px solid #74b9ff;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 40px 0;
+}
+
+.titulo-maleficios {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.grade-maleficios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.item-maleficio {
+  padding: 30px;
+  background: white;
+  position: relative;
+  border-radius: 10px;
+}
+
+.item-maleficio h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.item-maleficio p {
+  color: #636e72;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 14px;
+}
+.questionario {
+  background-color: white;
+  text-align: center;
+  padding: 2vw;
+  border-radius: 12px;
+  border: 2px solid #0a0a0a;
+}
+.questionario p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 0 0 26px;
+}
+.questionario a {
+    background-color: rgb(204, 204, 204);
+    padding: 15px 4.2vw;
+    border-radius: 10px;
+    margin: 10vw 0 10vw 0;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #0a0a0a;
+    line-height: 3vw;
+    font-size: 1.3rem;
+}
+@media (max-width: 768px) {
+  .secao-redes-sociais,
+  .secao-principal-maleficios {
+    padding: 25px 20px;
+  }
+
+  .secao-videos {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .item-video {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .placeholder-video {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .grade-maleficios {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .item-maleficio {
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .titulo-pagina {
+    font-size: 28px;
+  }
+}

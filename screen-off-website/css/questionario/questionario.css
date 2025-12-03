@@ -1,0 +1,46 @@
+.pergunta {
+    display: none;
+    margin-bottom: 20px;
+}
+
+#ver-diagnostico {
+    display: none;
+}
+
+.formPag {
+    padding: 5vw;
+    margin: 7vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+
+.formPag form div {
+    margin: 59px;
+    font-size: 1.4rem;
+    line-height: 3vw;
+}
+
+.formPag h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.barra {
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    height: auto;
+}
+
+.linha {
+    width: 23px;
+    height: 510px;
+    background-color: #AAC5FF;
+    border-radius: 6px;
+    border: 1.5px solid #0a0a0a;
+}
+div.pergunta label {
+    font-size: 1.7rem;
+}
