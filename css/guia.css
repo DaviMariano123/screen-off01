@@ -496,8 +496,7 @@ section.item-aplicativo p,
 /*--------------------------RESPONSIVIDADE---------------------------------*/
 
 @media (max-width: 800px) {
-  /* Tipografia e títulos */
-  nav { font-size: 0.95rem; }
+
   .titulo-pagina { font-size: 26px; margin-bottom: 20px; }
   .titulo-videos { font-size: 20px; margin-bottom: 20px; }
   .titulo-aplicativos { font-size: 18px; margin-bottom: 20px; }

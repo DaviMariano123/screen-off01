@@ -72,19 +72,3 @@ h1 {
     font-size: 17px;
 }
 
-
-@media (max-width: 768px) {
-    .menu-navegacao {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .menu-navegacao a {
-        margin: 10px;
-    }
-
-    #questionario {
-        padding: 20px;
-    }
-}
