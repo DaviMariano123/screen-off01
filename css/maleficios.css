@@ -190,4 +190,7 @@ nav {
   .titulo-pagina {
     font-size: 28px;
   }
+  .questionario {
+    padding: 2rem;
+  }
 }
